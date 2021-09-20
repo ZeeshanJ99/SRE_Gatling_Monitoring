@@ -95,6 +95,23 @@ This will bring us to the Gatling Stats homepage. Here we can see lots of inform
 ![image](https://user-images.githubusercontent.com/88186084/134026523-ad8e3cfc-f1ae-4c19-874b-33a6425ddde9.png)
 
 
+-------------------------------------------------------------------------------
+
+## Editing requests
+
+Navigate to this section
+
+![image](https://user-images.githubusercontent.com/88186084/134032638-a558a981-8e70-4af2-953b-b108059891b6.png)
+
+Scroll to bottom of page, this number is the number of requests that will occur when you test 
+
+![image](https://user-images.githubusercontent.com/88186084/134032886-78de4750-da59-4059-8a3f-d565c55d1410.png)
+
+Set this to a suitable number 
+
+## AWS cloud watch
+
+You know when your load balancer and autoscaling groups are working when new instances are spun up to deal with the traffic.
 
 
 
