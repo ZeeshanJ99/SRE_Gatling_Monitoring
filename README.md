@@ -115,6 +115,19 @@ Set this to a suitable number
 You know when your load balancer and autoscaling groups are working when new instances are spun up to deal with the traffic.
 
 
+## Application Load Balancer
+![image](https://user-images.githubusercontent.com/88186084/134195501-d048d73e-270b-4960-8908-97cac3b35a95.png)
+
+## What we should be monitoring?
+
+Resource monitoring: operates by gathering data on how your servers are running. Resource monitoring tools report on RAM usage, CPU load, and remaining disk space. In architecture with physical servers, information on hardware health—like CPU temperatures and component uptime—can also be helpful to avoid server failure. In cloud-based environments, aggregates of your virtual server system are more useful. 
+
+Network monitoring: Looks at the data coming in and out of your computer network. It captures all incoming requests and outgoing responses across all components such as switches, firewalls, servers, and more. The data collected from network monitoring can be as simple as the total amount of data coming and going or as nuanced as the frequency of particular requests. 
+
+Application performance monitoring: APM solutions collect data on how an overall service is performing. These tools will send their requests to the service and track metrics such as the speed and completeness of the response. The goal is to drive the detection and diagnosis of application performance issues to ensure services perform at expected levels. 
+
+Third-party component monitoring: This involves monitoring the health and availability of third-party components in your architecture. In this era of microservices, your service likely depends on the proper functioning of external services, from cloud hosting to ad servers. Like application performance monitoring, tools can check the status of these services with their requests. 
+
 
 
 
