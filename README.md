@@ -118,6 +118,11 @@ You know when your load balancer and autoscaling groups are working when new ins
 ## Application Load Balancer
 ![image](https://user-images.githubusercontent.com/88186084/134195501-d048d73e-270b-4960-8908-97cac3b35a95.png)
 
+
+Entire infrastructure diagram
+![image](https://user-images.githubusercontent.com/88186084/134203438-c8b97796-f67f-436b-9d67-0697cdfd14db.png)
+
+
 ## What we should be monitoring?
 
 Resource monitoring: operates by gathering data on how your servers are running. Resource monitoring tools report on RAM usage, CPU load, and remaining disk space. In architecture with physical servers, information on hardware health—like CPU temperatures and component uptime—can also be helpful to avoid server failure. In cloud-based environments, aggregates of your virtual server system are more useful. 
