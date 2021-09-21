@@ -44,6 +44,7 @@ We will now change the recorder mode to HAR converter which shall change the pag
 
 ------------------------------------------------------------------------------------
 ## Converting the .har file
+The HTTP Archive format, or HAR, is a JSON-formatted archive file format for logging of a web browser's interaction with a site. The common extension for these files is .har
 
 Navigate to a webpage of your choice on Google Chrome. In this case we will be using Jenkins. On any space on the screen, right-click and select inspect.
 
