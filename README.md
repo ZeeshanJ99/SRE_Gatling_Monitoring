@@ -4,20 +4,22 @@
 Installations
 
 ## Gatling
-add links where downloaded
+- https://gatling.io/get-started/
+- Download normal one (not enterprise)
 
 ---------------------------------------------
 
 ## Java
-
-download
-make environment variable
+- https://devwithus.com/install-java-windows-10/
+- Download the installer
+- make environment variable
 
 ---------------------------------------------------
 
 ## Intellij
+- https://www.jetbrains.com/idea/download/#section=windows
+- Download community version
 
-download
 
 ---------------------------------------
 
