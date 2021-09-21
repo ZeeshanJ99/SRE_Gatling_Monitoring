@@ -120,10 +120,12 @@ You know when your load balancer and autoscaling groups are working when new ins
 ## Application Load Balancer
 ![image](https://user-images.githubusercontent.com/88186084/134195501-d048d73e-270b-4960-8908-97cac3b35a95.png)
 
+---------------------------------------------------------------------------------
 
 Entire infrastructure diagram
 ![image](https://user-images.githubusercontent.com/88186084/134203438-c8b97796-f67f-436b-9d67-0697cdfd14db.png)
 
+------------------------------------------------
 
 ## What we should be monitoring?
 
@@ -135,6 +137,17 @@ Entire infrastructure diagram
 
 **Third-party component monitoring**: This involves monitoring the health and availability of third-party components in your architecture. In this era of microservices, your service likely depends on the proper functioning of external services, from cloud hosting to ad servers. Like application performance monitoring, tools can check the status of these services with their requests. 
 
+---------------------------------------------------------------------------------------------
+
+## Maven Installation
+
+- https://maven.apache.org/download.cgi 
+- Download the zip file and move it to your program files
+- Go to Environment variables and make a new user variable named path with the value as the path of the Maven file with `\bin` at the end
+- create a new system environment variable named `MAVEN_HOME` and provide the value as the path of the Maven file
+- Use `mvn --version` to check whether it has installed properly on your terminal
+
+-----------------------------------------------------------------------------------------------
 
 ![MicrosoftTeams-image](https://user-images.githubusercontent.com/88186084/134200831-e1d4f7fe-246f-47c5-a901-41a45778b7c9.png)
 
