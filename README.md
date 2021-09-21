@@ -129,6 +129,4 @@ Application performance monitoring: APM solutions collect data on how an overall
 Third-party component monitoring: This involves monitoring the health and availability of third-party components in your architecture. In this era of microservices, your service likely depends on the proper functioning of external services, from cloud hosting to ad servers. Like application performance monitoring, tools can check the status of these services with their requests. 
 
 
-
-
-
+![MicrosoftTeams-image](https://user-images.githubusercontent.com/88186084/134200831-e1d4f7fe-246f-47c5-a901-41a45778b7c9.png)
