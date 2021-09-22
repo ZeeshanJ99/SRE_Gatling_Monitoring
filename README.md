@@ -169,12 +169,14 @@ Use this link to learn how to set it it up in terraform! - https://github.com/Ze
 
 -----------------------------------------------------------------------------------------
 
-## Application Load Balancer
+## What is an Application Load Balancer (ALB)?
+The Application Load Balancer is a feature of Elastic Load Balancing that allows a developer to configure and route incoming end-user traffic to applications based in the AWS public cloud. It can address complex load-balancing needs by managing traffic at the application level
+
 ![image](https://user-images.githubusercontent.com/88186084/134195501-d048d73e-270b-4960-8908-97cac3b35a95.png)
 
 ------------------------------------------------
 
-## What is Scaling in and Scaling out and what differences do they have
+## What is Scaling in and Scaling out and what differences do they have?
 
 Scaling out, or horizontal scaling, contrasts to scaling out, or vertical scaling. As your cloud workload changes it may be necessary to increase infrastructure to support increasing load or it may make sense to decrease infrastructure when demand is low. Scaling out is adding more equivalently functional components in parallel to spread out a load. **This would be going from two load-balanced web server instances to three instances. Scaling up, in contrast, is making a component larger or faster to handle a greater load.  This would be moving your application to a virtual server (VM) with 2 CPU to one with 3 CPUs.**  For completeness, scaling down refers to decreasing your system resources, regardless of whether you were using the up or out approach.
 
