@@ -163,6 +163,13 @@ There are four common types of performance tests designed to assess applications
 
 -----------------------------------------------------------------------------------------------
 
-![MicrosoftTeams-image](https://user-images.githubusercontent.com/88186084/134200831-e1d4f7fe-246f-47c5-a901-41a45778b7c9.png)
+what is the diff between Scaling out and Scaling
+SNS A2A
+SNS A2P
+SQS? 
+Create a Diagram for each service and the entire process of making your App highly available and scalable 
+
+
+
 
 
