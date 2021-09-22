@@ -137,6 +137,20 @@ Entire infrastructure diagram
 
 **Third-party component monitoring**: This involves monitoring the health and availability of third-party components in your architecture. In this era of microservices, your service likely depends on the proper functioning of external services, from cloud hosting to ad servers. Like application performance monitoring, tools can check the status of these services with their requests. 
 
+---------------------------------------------------------
+
+## The 4 Common performance tests
+
+There are four common types of performance tests designed to assess applications:
+
+- **Load Tests**: Measure performance as a workload increases to expected production levels. The goal is to ensure that any updates to an application continue to meet minimum performance standards.
+
+- **Stress Tests**: Measure performance outside of typical production levels to measure when and how it fails. The goal is to identify the breaking points of an application and potentially fix bottlenecks.  
+
+- **Spike Tests**: Measure performance when a workload suddenly and substantially increases beyond typical production levels. The goal is to see how an application would perform if traffic suddenly spiked in production.
+
+- **Soak Tests**: involves testing a system with a typical production load, over a continuous availability period, to validate system behavior under production use. 
+
 ---------------------------------------------------------------------------------------------
 
 ## Maven Installation
