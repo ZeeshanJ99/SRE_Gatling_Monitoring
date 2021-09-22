@@ -2,11 +2,9 @@
 
 ![image](https://user-images.githubusercontent.com/88186084/134348100-56a4f053-25d2-4b65-84f6-547550c81dd7.png)
 
-## Entire infrastructure diagram
-![image](https://user-images.githubusercontent.com/88186084/134203438-c8b97796-f67f-436b-9d67-0697cdfd14db.png)
-
 --------------------------------------------------
-Installations
+# Installations
+-----------------------------------
 
 ## Gatling
 - https://gatling.io/get-started/
@@ -25,6 +23,9 @@ Installations
 - https://www.jetbrains.com/idea/download/#section=windows
 - Download community version
 
+#### setting up testing env on intellij
+- plugins ctl + alt + s `install scala`
+- restart intellij
 
 ---------------------------------------
 
@@ -35,12 +36,6 @@ Installations
 - Go to Environment variables and make a new user variable named path with the value as the path of the Maven file with `\bin` at the end
 - create a new system environment variable named `MAVEN_HOME` and provide the value as the path of the Maven file
 - Use `mvn --version` to check whether it has installed properly on your terminal
-
--------------------------------------------------
-
-#### setting up testing env on intellij
-- plugins ctl + alt + s `install scala`
-- restart intellij
 
 -----------------------------------------
 
@@ -157,6 +152,9 @@ Set this to a suitable number
 ------------------------------------------------------------------------
 
 ## AWS cloud watch
+
+![image](https://user-images.githubusercontent.com/88186084/134348414-dc96a9ff-a031-48fd-b313-3d8fd56932fb.png)
+
 
 You know when your load balancer and autoscaling groups are working when new instances are spun up to deal with the traffic.
 
