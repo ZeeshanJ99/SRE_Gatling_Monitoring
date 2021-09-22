@@ -167,8 +167,11 @@ what is the diff between Scaling out and Scaling
 SNS A2A
 SNS A2P
 SQS? 
+
+
 Create a Diagram for each service and the entire process of making your App highly available and scalable 
 
+E.g. ASG - how is it connected to load balancer - how connected to the Internet Gateway etc.
 
 
 
