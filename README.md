@@ -149,23 +149,6 @@ Scroll to bottom of page, this number is the number of requests that will occur 
 
 Set this to a suitable number
 
-------------------------------------------------------------------------
-
-## AWS cloud watch
-
-![image](https://user-images.githubusercontent.com/88186084/134348414-dc96a9ff-a031-48fd-b313-3d8fd56932fb.png)
-
-
-You know when your load balancer and autoscaling groups are working when new instances are spun up to deal with the traffic.
-
-Use this link to learn how to set it it up in terraform! - https://github.com/ZeeshanJ99/SRE_terraform/blob/main/README.md
-
-
-**Screenshots of events to trigger ASG, creating a dashboard, creating a topic - linking to email etc.
-
-- SNS A2A 
-- SNS A2P
-- SQS? 
 
 -----------------------------------------------------------------------------------------
 
@@ -186,14 +169,55 @@ Scaling out, or horizontal scaling, contrasts to scaling out, or vertical scalin
 
 ---------------------------------------------------------------------------------------------
 
+## AWS cloud watch
 
+![image](https://user-images.githubusercontent.com/88186084/134348414-dc96a9ff-a031-48fd-b313-3d8fd56932fb.png)
+
+
+You know when your load balancer and autoscaling groups are working when new instances are spun up to deal with the traffic.
+
+Use this link to learn how to set it it up and automate it in terraform! - https://github.com/ZeeshanJ99/SRE_terraform/blob/main/README.md
+
+---------------------------------------------------------------------------------
+
+### Simple Notification Service (SNS)
+
+- Navigate to the `SNS` dashboard and select `Topics`
+- Select `Create topic`
+- Select `standard` as the type
+- Name it appropriately and add `tags`
+- Once created you can click on your topic and `create a subscription`
+- select `email` as the protocol
+- Place your email in the `endpoint` box
+- This will send an email to the email you specified asking for you to confirm it.
+- Once confirmed your set-up is complete and you can add this SNS to an alarm
+
+-----------------------------------------------
+
+### Creating an Alarm on Cloudwatch
+
+- Navigate to CloudWatch
+- Click `Create Alarm`
+- Press `Select Metric` followed by what you would like the alarm to trigger, for example `CPUUtilization`
+- To get to a metric click on  `EC2 > By Auto Scaling Group`, find your ASG and tick `CPUUtilization`
+- Click `Select Metric` This will bring you to a page where you specify the Metric and Conditions
+
+- Change the `Period` to `1` minute
+- Condition as `Static` , `Less than < threshold` and define the value as a suitable number e.g.`20`
+- Click `Next`
+ 
+- At this stage you can add your `SNS Topic` that we created earlier
+- And `add Auto Scaling action`
+- Select the `In alarm` and `Resource type as EC2 Auto Scaling group` and select your group from the dropdown menu
+- On `Take the following action` select what will happen once the alarm is triggered, e.g. `scale down (remove 1 instance)`
+- Click `Next` Add your alarm `name` and a `description`
+- Now you can `Create` your alarm 
 
 -----------------------------------------------------------------------------------------------
 
 Create a Diagram for each service and the entire process of making your App highly available and scalable 
 
 E.g. ASG - how is it connected to load balancer - how connected to the Internet Gateway etc.
-
 
 
 
